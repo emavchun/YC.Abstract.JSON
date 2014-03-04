@@ -1,5 +1,4 @@
-﻿
-module YC.ReSharper.AbstractAnalysis.Languages.JSON
+﻿module YC.ReSharper.AbstractAnalysis.Languages.JSON
 
 open System.IO
 open JSON.Parser

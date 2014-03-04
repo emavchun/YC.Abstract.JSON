@@ -1,0 +1,5 @@
+1) Install-Package YC.AbstractAnalysis.Lexing.Core
+2) Install-Package NUnit
+3) Install-Package YC.Core
+4) Install-Package YC.Generators.RNGLR
+5) install graphviz4net, add reference to Graphviz4net.dll

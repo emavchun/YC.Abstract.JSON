@@ -2,7 +2,7 @@
 open AbstractLexer.Core
 }
 
-include "../../GrammarTemplates/Common.yrd"
+include "../Common.yrd"
 
 tokens {
     _ of string*array<Position<JetBrains.ReSharper.Psi.CSharp.Tree.ICSharpLiteralExpression>>

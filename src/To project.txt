@@ -1,3 +1,4 @@
 1) Install-Package YC.AbstractAnalysis.Lexing.Core
 2) Install-Package YC.AbstractAnalysis.Lexing.Generator
 3) Install-Package FSharp.Core
+4) Install-Package YC.Utils.SourceText

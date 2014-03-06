@@ -12,4 +12,4 @@ let parser = new Yard.Generators.RNGLR.AbstractParser.Parser<_>()
 
 let parse (*parser:Yard.Generators.RNGLR.AbstractParser.Parser<_>*) =
     
-    fun parserInputGraph -> parser.Parse buildAstAbstract parserInputGraphget
+    fun parserInputGraph -> parser.Parse buildAstAbstract parserInputGraph

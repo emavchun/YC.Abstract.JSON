@@ -73,6 +73,9 @@
     <None Include="Lexer.fsl" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="AbstractAnalysis.Common">
+      <HintPath>..\3rdPart\AbstractAnalysis.Common.dll</HintPath>
+    </Reference>
     <Reference Include="AbstractLexer.Common">
       <HintPath>..\packages\YC.AbstractAnalysis.Lexing.Common.0.0.6.5\lib\net45\AbstractLexer.Common.dll</HintPath>
       <Private>True</Private>

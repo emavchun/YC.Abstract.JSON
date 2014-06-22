@@ -3,6 +3,11 @@
 open System.IO
 open AbstractAnalysis.Common
 open JSON.Parser
+open Mono.Addins
+
+[<assembly:Addin>]
+[<assembly:AddinDependency ("YC.ReSharper.AbstractAnalysis.Plugin.Core", "1.0")>]
+do()
 
 let tokenize lexerInputGraph =
     let eof = RNGLR_EOF("",[||])
